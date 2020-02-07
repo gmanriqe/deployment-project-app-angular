@@ -1,0 +1,191 @@
+/**************************
+Media Queries
+**************************/
+/* Desktop */
+@media screen and (max-width: 1920px) {
+
+}
+@media screen and (max-width: 1600px) {
+    .solutions-right {
+        width: 600px;
+    }
+    .solutions-left {
+        width: 840px;
+    }
+}
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1280px) {
+    /*********************
+    Header
+    *********************/
+    .logo {
+        padding-right: 24px;
+        margin-right: 24px
+    }
+    .menu > ul > li:not(:last-child) {
+        margin-right: 24px
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+    /*********************
+    Header
+    *********************/
+    .main-header {
+        display: none;
+    }
+    .main-header-mobile {
+        display: block;
+    }
+    /*********************
+    La Planta
+    *********************/
+    .plant-slider-top {
+        flex-direction: column;
+    }
+    .plant-slider-top > div {
+        width: 100%;
+    }
+    .plant-slider-top > div:nth-child(1) {
+        padding-right: 0;
+    }
+    .plant-slider-top > div:nth-child(2) {
+        padding-left: 0;
+    }
+    /*********************
+    Footer
+    *********************/
+    .footer > div:nth-child(1) .content {
+        padding-right: 35px;
+    }
+    .footer > div:nth-child(2) .content {
+        padding-left: 35px;
+    }
+    .footer > div:nth-child(2) .content > div:not(:first-child) {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 992px) {
+    /*********************
+    To Top
+    *********************/
+    .main-to-top {
+        display: block;
+    }
+    /*********************
+    Footer
+    *********************/
+    .footer > div:nth-child(1) {
+        display: none;
+    }
+    .footer > div:nth-child(2) {
+        width: 100%;
+        background-color: var(--secondary-color);
+    }
+    .footer > div:nth-child(2) .content {
+        max-width: 1440px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+    .footer > div:nth-child(2) .content > div:not(:last-child) {
+        margin-right: 0;
+    }
+    .footer > div:nth-child(2) li a:hover {
+        color: var(--tertiary-color);
+        border-color: var(--tertiary-color);
+    }
+}
+@media screen and (max-width: 768px) {
+    /*==================
+    Grid
+    ===================*/
+    .grid a {
+        width: 45.51724137931034%;
+        margin-right: 8.96551724137931%;
+    }
+    .grid a:nth-child(3n+3) {
+       margin-right: 8.96551724137931%;
+    }
+    .grid a:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    /* Header Mobile */
+    .header-mobile-right .btn {
+        padding: 14px 35px;
+    }
+    /*********************
+    La Planta
+    *********************/
+    .plant-description-bottom, .plant-description-top {
+        flex-direction: column;
+    }
+    .plant-description-bottom > div, .plant-description-top > div {
+        width: 100%;
+    }
+    .plant-description-top > div:nth-child(1),
+    .plant-description-bottom > div:nth-child(1) {
+        padding-right: 0;
+    }
+    .plant-description-top > div:nth-child(2),
+    .plant-description-bottom > div:nth-child(2) {
+        padding-left: 0;
+    }
+    .plant-description-bottom > div:nth-child(2) {
+        justify-content: center;
+    }
+    .plant-description-bottom > div:nth-child(2) > figure:nth-child(2) {
+        padding-left: 10px;
+    }
+    .plan-slider-bottom .content-pagination {
+        display: none;
+    }
+    .plan-slider-bottom .arrow-slider-circle {
+        width: initial !important;
+    }
+    .plan-slider-bottom .slider-pagination-bottom {
+        justify-content: center;
+    }
+    /*********************
+    Footer
+    *********************/
+    .footer > div:nth-child(2) .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 640px) {
+
+}
+@media screen and (max-width: 580px) {
+    /*==================
+    Grid
+    ===================*/
+    .grid a {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .grid a:nth-child(3n+3) {
+       margin-right: auto;
+       margin-left: auto;
+    }
+    .grid a:nth-child(2n+2) {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media screen and (max-width: 375px) {
+
+}
+@media screen and (max-width: 360px) {
+
+}
+
